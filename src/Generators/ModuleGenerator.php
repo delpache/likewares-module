@@ -212,7 +212,7 @@ class ModuleGenerator
     public function createFolders(): void
     {
         foreach ($this->paths[$this->type] as $key => $folder) {
-            $path = base_path('modules/Likewares/'.$this->moduleName.'/src').'/'.$folder;
+            $path = base_path('modules/'.$this->moduleName.'/src').'/'.$folder;
 
             $this->filesystem->makeDirectory($path, 0755, true);
         }
@@ -226,7 +226,7 @@ class ModuleGenerator
         $variables = $this->getStubVariables();
 
         foreach ($this->stubFiles[$this->type] as $stub => $file) {
-            $path = base_path('modules/Likewares/'.$this->moduleName.'/src').'/'.$file;
+            $path = base_path('modules/'.$this->moduleName.'/src').'/'.$file;
 
             if (! $this->filesystem->isDirectory($dir = dirname($path))) {
                 $this->filesystem->makeDirectory($dir, 0775, true);
