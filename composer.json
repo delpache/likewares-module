@@ -1,0 +1,29 @@
+{
+    "name": "likewares/likewares-module",
+    "description": "Likewares CRM Module Generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KOUAOBILE ASSANDE HUGUES",
+            "email": "assandehugues@gmail.com",
+            "homepage": "https://crm.likewares.com",
+            "role": "CEO Developer"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Likewares\\ModuleGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Likewares\\ModuleGenerator\\Providers\\ModuleGeneratorServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
