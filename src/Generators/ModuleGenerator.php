@@ -72,7 +72,7 @@ class ModuleGenerator
             'assets/css/app'                             => 'Resources/assets/css/app.css',
             'assets/images/Icon-Temp'                    => 'Resources/assets/images/Icon-Temp.svg',
             'assets/images/Icon-Temp-Active'             => 'Resources/assets/images/Icon-Temp-Active.svg',
-            'module'                                    => '../package.json',
+            'package'                                    => '../package.json',
             'vite'                                       => '../vite.config.js',
             'tailwind'                                   => '../tailwind.config.js',
             'postcss'                                    => '../postcss.config.js',
