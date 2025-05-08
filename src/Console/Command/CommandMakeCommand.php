@@ -19,14 +19,14 @@ class CommandMakeCommand extends MakeCommand
      *
      * @var string
      */
-    protected $type = 'Console command';
+    protected $type = 'Commande Console';
 
     /**
      * Description de la commande de la console.
      *
      * @var string|null
      */
-    protected $description = 'Create a new command.';
+    protected $description = 'Créer une nouvelle commande.';
 
     /**
      * Récupérer le fichier stub du générateur.

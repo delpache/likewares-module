@@ -33,7 +33,7 @@ class ModuleProviderMakeCommand extends MakeCommand
      */
     protected function getStubContents(): string
     {
-        return $this->moduleGenerator->getStubContents('scaffold/package-provider', $this->getStubVariables());
+        return $this->moduleGenerator->getStubContents('scaffold/module-provider', $this->getStubVariables());
     }
 
     /**
